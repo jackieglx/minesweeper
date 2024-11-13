@@ -8,7 +8,9 @@ const HomeLayout = () => {
 
     return (
         <div>
+
             <Navbar />
+
             <section className="page">
                 {isPageLoading ? (
                     <div className="loading">Loading...</div>

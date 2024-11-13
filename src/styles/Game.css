@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
     height: 100vh;
-    background-color: #fadbe3;
-    padding: 20px;
+    padding: 0;
     box-sizing: border-box;
     overflow: auto;
 }
+
+
 
 .center-content {
     display: flex;

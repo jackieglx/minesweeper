@@ -1,13 +1,33 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color: #FADBE3;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Apply box-sizing globally */
 }
 
-.page {
-  padding: 20px;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling caused by overflowing elements */
 }
+
+
+
+.page {
+  width: 100%; /* Ensure full width */
+  padding: 20px;
+  padding-top: 60px; /* Account for the navbar */
+  box-sizing: border-box;
+  min-height: calc(100vh - 60px); /* Ensure it fills below the navbar */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
 
 .loading {
   text-align: center;
