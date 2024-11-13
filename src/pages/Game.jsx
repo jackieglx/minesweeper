@@ -92,7 +92,7 @@ const Game = () => {
                 <Timer
                     isRunning={isRunning}
                     elapsedTime={elapsedTime}
-                    setElapsedTime={setElapsedTime} /
+                    setElapsedTime={setElapsedTime}
                 />
             </div>
         </div>
