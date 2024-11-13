@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FADBE3;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  padding: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  color: #ED5A72;
+}

@@ -1,0 +1,9 @@
+.board {
+    display: inline-block;
+    background-color: #fadbe3;
+    border: 2px solid #ed5a72;
+}
+
+.board-row {
+    display: flex;
+}

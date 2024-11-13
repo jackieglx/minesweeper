@@ -1,0 +1,31 @@
+.play {
+    text-align: center;
+    padding: 30px;
+}
+
+.play h2 {
+    color: #ED5A72;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.difficulty-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.difficulty-buttons button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ED5A72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.difficulty-buttons button:hover {
+    background-color: #D2465E;
+}
